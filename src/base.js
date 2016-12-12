@@ -30,7 +30,6 @@ const add2 = ()=>{
 const asyncFunc = ()=>{
   Rx.Observable.startAsync(()=>sleep(5000)).subscribe(()=>{
     refLog.info('warn',"Async Operation succeeded!")
-
   })
 }
 

@@ -3,7 +3,6 @@ import React from 'react'
 
 class Xianzhi extends React.Component{
 
-
     constructor(props){
         super(props)
         this.state={
@@ -11,10 +10,9 @@ class Xianzhi extends React.Component{
         }
     }
 
-
     render(){
         return <div>
-            Welcome to Xianzhi-platform 
+            Welcome to Xianzhi-platform
         </div>
  }
 
